@@ -668,46 +668,54 @@
           },
           "media3": {
             "iconFont": {
-              "active": true,
               "class": "",
+              "linkInNewWindow": false,
               "name": "facebook",
-              "link": "https://mobirise.com",
+              "family": "socicon",
+              "active": true,
+              "link": "http://cnskorea.systems",
               "size": 0,
               "color": "#ffffff",
-              "family": "socicon"
+              "newWindow": false
             }
           },
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "",
+              "linkInNewWindow": false,
               "name": "twitter",
-              "link": "https://mobirise.com",
+              "family": "socicon",
+              "active": true,
+              "link": "http://cnskorea.systems",
               "size": 0,
               "color": "#ffffff",
-              "family": "socicon"
+              "newWindow": false
             }
           },
           "media5": {
             "iconFont": {
-              "active": true,
               "class": "",
+              "linkInNewWindow": false,
               "name": "instagram",
-              "link": "https://mobirise.com",
+              "family": "socicon",
+              "active": true,
+              "link": "http://cnskorea.systems",
               "size": 0,
               "color": "#ffffff",
-              "family": "socicon"
+              "newWindow": false
             }
           },
           "media6": {
             "iconFont": {
-              "active": true,
               "class": "",
+              "linkInNewWindow": false,
               "name": "behance",
-              "link": "https://mobirise.com",
+              "family": "socicon",
+              "active": true,
+              "link": "http://cnskorea.systems",
               "size": 0,
               "color": "#ffffff",
-              "family": "socicon"
+              "newWindow": false
             }
           },
           "media7": {
