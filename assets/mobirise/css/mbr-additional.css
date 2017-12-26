@@ -684,6 +684,10 @@ h6,
 #extAccordion2-9 P {
   text-align: left;
 }
+#header3-q .mbr-section-title,
+#header3-q .mbr-section-subtitle {
+  text-align: center;
+}
 #extFooter1-e .mbr-section-title {
   font-size: 18px;
 }

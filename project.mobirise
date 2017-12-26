@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 24,
+    "uniqCompNum": 27,
     "versionPublish": "4.5.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -225,10 +225,10 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/003-186x153.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/003-186x153-186x153.jpg",
-                "alt": "삼계탕",
-                "caption": "삼계탕",
+                "image": "@PROJECT_PATH@/assets/images/004-186x153.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/004-186x153-186x153.jpg",
+                "alt": "전복 삼계탕",
+                "caption": "전복 삼계탕",
                 "active": false
               },
               {
@@ -236,10 +236,10 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/004-186x153.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/004-186x153-186x153.jpg",
-                "alt": "전복 삼계탕",
-                "caption": "전복 삼계탕",
+                "image": "@PROJECT_PATH@/assets/images/003-186x153.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/003-186x153-186x153.jpg",
+                "alt": "삼계탕",
+                "caption": "삼계탕",
                 "active": false
               },
               {
@@ -408,53 +408,49 @@
           }
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showLogo": false,
-            "progress": "60",
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1_bg.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#262626",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.4
-          },
-          "list": "<ul>충청남도 공주시 신풍면 용수리 314-1, 314-5<br><span style=\"font-size: 1rem;\">문의 : 041) 841-9512</span></ul>",
-          "title": "금강레토르트",
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1.png"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 0
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             }
           },
-          "alias": "mobirise3-blocks/components",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "title": "Social Feed",
+          "meta": "Talk on Facebook",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-q"
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "postToLoad": 3,
+            "facebook": "3bomsystems",
+            "twitter": "",
+            "google": "",
+            "youtube": "",
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
           "_tags": [
             "Extension"
           ],
-          "_name": "extFooter1",
-          "_anchor": "extFooter1-e",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "18px"
-            },
-            "UL": {
-              "color": "#ffffff"
-            }
-          }
+          "_name": "feed",
+          "_anchor": "feed-o"
         },
         {
           "_params": {
@@ -559,6 +555,55 @@
           ],
           "_name": "extForm1",
           "_anchor": "extForm1-l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showLogo": false,
+            "progress": "60",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1_bg.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#262626",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=7LDRrdD-Qww"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.4
+          },
+          "list": "<ul>충청남도 공주시 신풍면 용수리 314-1, 314-5<br><span style=\"font-size: 1rem;\">문의 : 041) 841-9512</span></ul>",
+          "title": "금강레토르트",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extFooter1.png"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFooter1",
+          "_anchor": "extFooter1-e",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "18px"
+            },
+            "UL": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
