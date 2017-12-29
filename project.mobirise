@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 27,
+    "uniqCompNum": 29,
     "versionPublish": "4.5.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -423,7 +423,7 @@
             "showMeta": true,
             "paddingTop": "3",
             "paddingBottom": 1,
-            "bgColor": "#efefef"
+            "bgColor": "#ffffff"
           },
           "title": "Social Feed",
           "meta": "Talk on Facebook",
@@ -444,7 +444,7 @@
             "google": "",
             "youtube": "",
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
             "overlay": true,
@@ -460,6 +460,33 @@
         },
         {
           "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "socialFacebook": true,
+            "postsNumber": 5,
+            "socialGoogle": false,
+            "socialDisqus": false,
+            "shortName": "",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>",
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-r"
+        },
+        {
+          "_params": {
             "showTitle": true,
             "showContacts": true,
             "showSubtitle": true,
@@ -467,13 +494,19 @@
             "showIcons": true,
             "showForm": true,
             "inverse": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "googleMap": {
+              "address": "충청남도 공주시 신풍면 용수리 314-1",
+              "placeId": "ChIJv9LOJtiVejURHYXv7eamN1w",
+              "state": "ok",
+              "stateDetails": ""
+            },
             "bgImageRadio": false,
             "bgImage": "@ADDONS_PATH@/mobirise3-blocks/components/_images/img_extForm1_bg.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#ffffff",
+            "bgColor": "#e9e9e9",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -481,47 +514,18 @@
             "overlay": true,
             "overlayColor": "#000",
             "overlayOpacity": 0.1,
-            "iconsColor": "#333333",
             "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-warning\">ABOUT</a>"
           },
-          "title": "DROP A MESSAGE",
-          "title1": "For your contacts",
-          "title2": "Visit our office",
+          "title": "DROP A LINE",
+          "title1": "Don't hesitate to contact us",
           "subTitle1": "Ready for offers & cooperation",
-          "subTitle2": "Glad to meet new people",
           "text1": "Phone: +1 (0) 000 0000 001 </br> Email: youremail@mail.com",
-          "text2": "1234 Street Name </br> City AA 99999",
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>",
-          "media": {
-            "image": {
-              "active": true,
-              "class": "central-image",
-              "src": "@PROJECT_PATH@/assets/images/mbr-3.jpg",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "iconFont": {
-              "size": 0,
-              "class": "mbr-iconfont mbr-iconfont-header2 ",
-              "color": "@primaryColor"
-            }
-          },
           "media1": {
             "iconFont": {
               "active": true,
               "class": "mbr-iconfont-form1",
-              "name": "linegraph",
-              "size": 0,
-              "color": "#666666",
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-form1",
-              "name": "heart",
+              "name": "envelope",
               "size": 0,
               "color": "#666666",
               "family": "et-line"
@@ -559,8 +563,8 @@
           "_tags": [
             "Extension"
           ],
-          "_name": "extForm1",
-          "_anchor": "extForm1-l"
+          "_name": "extForm3",
+          "_anchor": "extForm3-s"
         },
         {
           "_params": {
